@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.increment-card {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 800px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+}
+.mormal-button {
+  padding: 10px;
+  border: none;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.clicked-btn {
+  border: 2px black solid;
+  padding: 10px;
+}
